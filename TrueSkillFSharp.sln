@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TrueSkillFSharp", "TrueSkillFSharp\TrueSkillFSharp.fsproj", "{483695BA-479B-40F7-AF07-8FDA50819DD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{C2F36BF6-2B93-4FD1-A4CB-DAD3D017D546}"
+	ProjectSection(SolutionItems) = preProject
+		Externals\Infer.Compiler.dll = Externals\Infer.Compiler.dll
+		Externals\Infer.Compiler.pdb = Externals\Infer.Compiler.pdb
+		Externals\Infer.Compiler.xml = Externals\Infer.Compiler.xml
+		Externals\Infer.FSharp.dll = Externals\Infer.FSharp.dll
+		Externals\Infer.FSharp.pdb = Externals\Infer.FSharp.pdb
+		Externals\Infer.FSharp.XML = Externals\Infer.FSharp.XML
+		Externals\Infer.Fun.dll = Externals\Infer.Fun.dll
+		Externals\Infer.Fun.pdb = Externals\Infer.Fun.pdb
+		Externals\Infer.Fun.XML = Externals\Infer.Fun.XML
+		Externals\Infer.Runtime.dll = Externals\Infer.Runtime.dll
+		Externals\Infer.Runtime.pdb = Externals\Infer.Runtime.pdb
+		Externals\Infer.Runtime.Silverlight.dll = Externals\Infer.Runtime.Silverlight.dll
+		Externals\Infer.Runtime.Silverlight.pdb = Externals\Infer.Runtime.Silverlight.pdb
+		Externals\Infer.Runtime.xml = Externals\Infer.Runtime.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{483695BA-479B-40F7-AF07-8FDA50819DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483695BA-479B-40F7-AF07-8FDA50819DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483695BA-479B-40F7-AF07-8FDA50819DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483695BA-479B-40F7-AF07-8FDA50819DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
