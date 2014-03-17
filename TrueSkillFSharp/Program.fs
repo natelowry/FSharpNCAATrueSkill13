@@ -14,7 +14,7 @@ let prettyPrintTeam (team:Team) =
 [<EntryPoint>]
 let main argv = 
     //printfn "%A" argv
-    let games = parseGamesList "2012-2013_games.csv"// |> Seq.take 23
+    let games = parseGamesList "2013-2014_games.csv"
 
   //  games
     //|> Seq.iter prettyPrintGame
@@ -33,9 +33,11 @@ let main argv =
         |> Seq.iter prettyPrintTeam
 
 
-    System.IO.File.WriteAllLines( "C:\\fu.txt", (
+    ignore (System.IO.Directory.CreateDirectory(@"C:\temp\trueskillNCAA\"))
+
+    System.IO.File.WriteAllLines( @"C:\temp\trueskillNCAA\fu.txt", (
     teams 
-        |> Seq.sortBy (fun t -> t.EstimatedSkill)
+        |> Seq.sortBy (fun t -> -t.EstimatedSkill)
         |> Seq.map (fun team -> team.Name + " (" + team.Wins.ToString() + "-" + team.Losses.ToString() + ") " + team.EstimatedSkill.ToString() + "," + team.SkillVariance.ToString())
         |> Seq.toArray)
        )

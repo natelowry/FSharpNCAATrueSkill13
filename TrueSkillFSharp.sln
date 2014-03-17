@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TrueSkillFSharp", "TrueSkillFSharp\TrueSkillFSharp.fsproj", "{483695BA-479B-40F7-AF07-8FDA50819DD0}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{C2F36BF6-2B93-4FD1-A4CB-DAD3D017D546}"
 	ProjectSection(SolutionItems) = preProject
 		Externals\Infer.Compiler.dll = Externals\Infer.Compiler.dll
@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{
 		Externals\Infer.Runtime.Silverlight.pdb = Externals\Infer.Runtime.Silverlight.pdb
 		Externals\Infer.Runtime.xml = Externals\Infer.Runtime.xml
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TrueSkillFSharp", "TrueSkillFSharp\TrueSkillFSharp.fsproj", "{483695BA-479B-40F7-AF07-8FDA50819DD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
