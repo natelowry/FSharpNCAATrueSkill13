@@ -14,9 +14,9 @@ let prettyPrintTeam (team:Team) =
 [<EntryPoint>]
 let main argv = 
     //printfn "%A" argv
-    let games = parseGamesList "2015-2016_games.csv"
+    let games = parseGamesList "2016-2017_games.csv"
 
-  //  games
+    //games
     //|> Seq.iter prettyPrintGame
 
     let mutable teams =
